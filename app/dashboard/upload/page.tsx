@@ -1,4 +1,3 @@
-import { PodcastUploader } from "@/components/podcast-uploader";
 
 export default function UploadPage() {
   return (
@@ -17,7 +16,6 @@ export default function UploadPage() {
 
         {/* Upload Area */}
         <div className="space-y-8">
-          <PodcastUploader />
 
           {/* Info Card */}
           <div className="glass-card rounded-2xl p-8">
